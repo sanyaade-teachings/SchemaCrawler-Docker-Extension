@@ -28,7 +28,7 @@
 FROM sualeh/schemacrawler
 
 # Copy over any additional local jar files, such as proprietary JDBC drivers
-COPY *.jar /schemacrawler/lib
+COPY *.jar /schemacrawler/lib/
 
 # Mapping directories
 VOLUME /output
